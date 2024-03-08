@@ -43,8 +43,6 @@ class MatchingAlgorithm:
     def calculate_matching_score(user1, user2):
         # ... (unchanged)
 
-# Continue with the rest of the code...
-
 @app.route('/connect/<int:user_id>')
 @login_required
 def connect(user_id):
